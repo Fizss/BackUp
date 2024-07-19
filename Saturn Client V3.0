@@ -1,23 +1,6 @@
 -- Gui to Lua
 -- Version: 3.6
 
-local judul = Instance.new("TextLabel")
-local judull = Instance.new("TextLabel")
-local UIGradient_2 = Instance.new("UIGradient")
-local ModMenu = Instance.new("Frame")
-local Hantu = Instance.new("TextButton")
-local IY = Instance.new("TextButton")
-local X = Instance.new("TextButton")
-local SpeedFrame = Instance.new("Frame")
-local Box = Instance.new("TextBox")
-local NS = Instance.new("TextButton")
-local SS = Instance.new("TextButton")
-local GameH = Instance.new("Frame")
-local BreakIn = Instance.new("TextButton")
-local BreakIn2 = Instance.new("TextButton")
-local Cruise = Instance.new("TextButton")
-local Hacking = Instance.new("Frame")
-local Cycle = Instance.new("TextButton")
 local F3X = Instance.new("TextButton")
 local Close = Instance.new("TextButton")
 local Menu = Instance.new("Frame")
@@ -75,6 +58,7 @@ Title.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Title.BorderSizePixel = 2
 Title.Size = UDim2.new(0, 348, 0, 51)
 
+local judul = Instance.new("TextLabel")
 judul.Name = "judul"
 judul.Parent = Title
 judul.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -90,6 +74,7 @@ judul.TextScaled = true
 judul.TextSize = 14.000
 judul.TextWrapped = true
 
+local judull = Instance.new("TextLabel")
 judull.Name = "judull"
 judull.Parent = Title
 judull.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -106,9 +91,11 @@ judull.TextScaled = true
 judull.TextSize = 14.000
 judull.TextWrapped = true
 
+local UIGradient_2 = Instance.new("UIGradient")
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(71, 0, 0)), ColorSequenceKeypoint.new(0.60, Color3.fromRGB(61, 0, 0)), ColorSequenceKeypoint.new(0.63, Color3.fromRGB(56, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 0, 0))}
 UIGradient_2.Parent = judull
 
+local ModMenu = Instance.new("Frame")
 ModMenu.Name = "ModMenu"
 ModMenu.Parent = Background
 ModMenu.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -118,6 +105,7 @@ ModMenu.BorderSizePixel = 0
 ModMenu.Size = UDim2.new(0, 100, 0, 100)
 ModMenu.Visible = false
 
+local Hantu = Instance.new("TextButton")
 Hantu.Name = "Hantu"
 Hantu.Parent = ModMenu
 Hantu.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -132,6 +120,7 @@ Hantu.TextScaled = true
 Hantu.TextSize = 14.000
 Hantu.TextWrapped = true
 
+local IY = Instance.new("TextButton")
 IY.Name = "IY"
 IY.Parent = ModMenu
 IY.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -146,6 +135,7 @@ IY.TextScaled = true
 IY.TextSize = 14.000
 IY.TextWrapped = true
 
+local X = Instance.new("TextButton")
 X.Name = "X"
 X.Parent = ModMenu
 X.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -160,6 +150,7 @@ X.TextScaled = true
 X.TextSize = 14.000
 X.TextWrapped = true
 
+local SpeedFrame = Instance.new("Frame")
 SpeedFrame.Name = "SpeedFrame"
 SpeedFrame.Parent = Background
 SpeedFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -169,6 +160,7 @@ SpeedFrame.BorderSizePixel = 0
 SpeedFrame.Size = UDim2.new(0, 100, 0, 100)
 SpeedFrame.Visible = false
 
+local Box = Instance.new("TextBox")
 Box.Name = "Box"
 Box.Parent = SpeedFrame
 Box.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -182,6 +174,7 @@ Box.Text = ""
 Box.TextColor3 = Color3.fromRGB(0, 0, 0)
 Box.TextSize = 14.000
 
+local NS = Instance.new("TextButton")
 NS.Name = "NS"
 NS.Parent = SpeedFrame
 NS.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -196,6 +189,7 @@ NS.TextScaled = true
 NS.TextSize = 14.000
 NS.TextWrapped = true
 
+local SS = Instance.new("TextButton")
 SS.Name = "SS"
 SS.Parent = SpeedFrame
 SS.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -210,6 +204,7 @@ SS.TextScaled = true
 SS.TextSize = 14.000
 SS.TextWrapped = true
 
+local GameH = Instance.new("Frame")
 GameH.Name = "GameH"
 GameH.Parent = Background
 GameH.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -218,6 +213,7 @@ GameH.BorderColor3 = Color3.fromRGB(0, 0, 0)
 GameH.BorderSizePixel = 0
 GameH.Size = UDim2.new(0, 100, 0, 100)
 
+local BreakIn = Instance.new("TextButton")
 BreakIn.Name = "BreakIn"
 BreakIn.Parent = GameH
 BreakIn.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -232,6 +228,7 @@ BreakIn.TextScaled = true
 BreakIn.TextSize = 14.000
 BreakIn.TextWrapped = true
 
+local BreakIn2 = Instance.new("TextButton")
 BreakIn2.Name = "BreakIn2"
 BreakIn2.Parent = GameH
 BreakIn2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -246,6 +243,7 @@ BreakIn2.TextScaled = true
 BreakIn2.TextSize = 14.000
 BreakIn2.TextWrapped = true
 
+local Cruise = Instance.new("TextButton")
 Cruise.Name = "Cruise"
 Cruise.Parent = GameH
 Cruise.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
@@ -260,6 +258,7 @@ Cruise.TextScaled = true
 Cruise.TextSize = 14.000
 Cruise.TextWrapped = true
 
+local Hacking = Instance.new("Frame")
 Hacking.Name = "Hacking"
 Hacking.Parent = Background
 Hacking.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -269,6 +268,7 @@ Hacking.BorderSizePixel = 0
 Hacking.Size = UDim2.new(0, 100, 0, 100)
 Hacking.Visible = false
 
+local Cycle = Instance.new("TextButton")
 Cycle.Name = "Cycle"
 Cycle.Parent = Hacking
 Cycle.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
